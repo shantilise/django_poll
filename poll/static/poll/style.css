@@ -1,0 +1,38 @@
+body {
+	background: white url("img/background.jpg") no-repeat right bottom;
+}
+
+#outer_div {
+	padding: 100px;
+}
+
+#inner_div {
+	padding: 50px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
+h3 {
+	text-align: center;
+}

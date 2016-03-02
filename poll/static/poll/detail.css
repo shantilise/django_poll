@@ -1,0 +1,36 @@
+body {
+	background: white url("img/detail.jpg") no-repeat right bottom;
+}
+
+#outer_div {
+	padding: 100px;
+}
+
+#inner_div {
+	padding: 50px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 35px;
+}
+
+#vote_button {
+	background-color: white;
+	border-radius: 12px;
+	font-size: 20px;
+	border: none;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+}
+
+label {
+	padding: 10px;
+}

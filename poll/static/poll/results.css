@@ -1,0 +1,63 @@
+body {
+	background: white url("img/results.jpg") no-repeat center bottom;
+}
+
+#outer_div {
+	padding: 100px;
+}
+
+#inner_div {
+	padding: 50px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h3 {
+	text-align: center;
+}
+
+#vote_button {
+	background-color: white;
+	border-radius: 12px;
+	font-size: 20px;
+	border: none;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 5px;
+	font-size: 25px;
+}
+
+#number_of_votes {
+	font-size: 20px;
+	color: orange;
+}
+
+button {
+	background-color: #fff;
+	border-radius: 12px;
+	font-size: 20px;
+	border: none;
+	margin: 10px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+button a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+

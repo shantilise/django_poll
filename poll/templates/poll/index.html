@@ -1,0 +1,18 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'poll/style.css' %}" />
+
+<div id='outer_div'>
+<div id='inner_div'>
+	<h3>POLL QUESTIONS</h3>
+{% if latest_question_list %}
+	<ol>
+	{% for question in latest_question_list %}
+		<li><a href="/poll/{{ question.id }}/">{{ question.question_text }}</a></li>
+	{% endfor %}
+	</ol>
+{% else %}
+	<p>No polls are available.</p>
+{% endif %}
+</div>
+</div>
